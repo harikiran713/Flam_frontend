@@ -1,0 +1,27 @@
+{
+  "name": "harikiran-canvas",
+  "version": "1.0.0",
+  "description": "Harikiran Canvas - Real-time collaborative drawing canvas application",
+  "main": "server/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "canvas",
+    "collaborative",
+    "websocket",
+    "drawing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
